@@ -1,0 +1,18 @@
+// import weka segmentation module
+import trainableSegmentation.*;
+import ij.IJ;
+// input train image
+input  = IJ.openImage("C:\\single_format_image\\7432_2022_10_27_Series7.jpg");
+// create Weka Segmentation object
+segmentator = new WekaSegmentation( input );
+
+import ij.WindowManager;
+
+wekaWindow = WindowManager.getWindow("Trainable Weka Segmentation v3.2.34");
+print(wekaWindow.getClass())
+sleep(3000);
+wekaWindow.drawExamples();
+sleep(3000);
+wekaWindow.updateExampleLists();
+sleep(3000);
+
