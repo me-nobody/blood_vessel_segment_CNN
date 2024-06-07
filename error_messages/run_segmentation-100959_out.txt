@@ -1,0 +1,5 @@
+Hello from gpu02
+mamba environment is segmentation
+this means code ran well
+mamba default environment is base
+/users/ad394h/miniforge-pypy3
