@@ -9,9 +9,6 @@ Original file is located at
 This code is adapted from [kaggle notebook Semantic Segmentation is easy](https://https://www.kaggle.com/code/ligtfeather/semantic-segmentation-is-easy-with-pytorch)
 """
 
-from google.colab import drive
-drive.mount('/content/drive')
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
