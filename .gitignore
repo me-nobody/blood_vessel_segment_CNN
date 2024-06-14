@@ -1,0 +1,4 @@
+error_messages/*.txt
+error_messages/*.err
+error_messages/*.out
+error_messages/*.log
